@@ -14,7 +14,6 @@ public class Techbiosis {
 		}
 		//Construtor para a classe numeros
 		Numbers n=new Numbers();
-		String tmp;
 		decompose(i,n,0);
 	}
 	//Função recursiva para dividir o numero por 1000, para neste caso conseguirmos separar os numeros por unidades de medida por exemplo o numero: 123456789 fica como

@@ -4,14 +4,11 @@ public class Numbers {
 	private boolean flag;
 	public Numbers(){}
 	public String numberToString(int n,int casas)
-	{
+ 	{
 		//String onde vamos construir o numero por extenso 
 		number="";
 		//Flag para confirmar que existiu algum numero, por exemplo: 100 000 123, não dizemos cem milhões zero mil cento e vinte e três, a flag serve para prevenir imprimir o zero mil...
 		flag=false;
-		//Caso especial de dividir por 1000, ser ele própio
-		if(n==1000)
-			return("One Thousand");
 		//Se o numero tiver 3 digitos
 		if(n>=100)
 		{
